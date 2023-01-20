@@ -1,8 +1,9 @@
-import Finder from "./Components/Finder.js";
+import Finder from './Components/Finder.js';
 const app = {
 
-    init: function() {
-        const content = document.querySelector(".content");
-        new Finder(content);
-    }
-}
+  init: function() {
+    const content = document.querySelector('.content');
+    new Finder(content);
+  }
+};
+app.init();

@@ -1,0 +1,25 @@
+.field {
+    width: 75px;
+    height: 35px;
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap; //zawijanie
+    width: 750px;
+    margin: 0 auto;
+}
+
+.selected {
+    background-color: rgba(255, 255, 0, 0.75);
+}
+
+.start {
+    background-color: rgba(3, 222, 50, 0.75);
+}
+
+.finish {
+    background-color: rgba(0, 22, 221, 0.75);
+}

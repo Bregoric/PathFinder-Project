@@ -13,6 +13,10 @@ export const select = {
         links: '.main-nav a',
         homeLinks: '.home-links a',
     },
+    finder: {
+        grid: '.grid',
+        submitBtn: 'button',
+    }
 };
 
 export const classNames = {
@@ -22,13 +26,19 @@ export const classNames = {
     pages: {
         active: 'active',
     },
+    finder: {
+        field: 'field',
+        selected: 'selected',
+        start: 'start',
+        finish: 'finish',
+    }
 };
 
 export const settings = {
 
 };
 export const templates = {
-    finder: Handlebars.compile(document.querySelector(select.templateOf.finder).innerHTML),
+    finderPage: Handlebars.compile(document.querySelector(select.templateOf.finder).innerHTML),
 };
 
 export default settings;
